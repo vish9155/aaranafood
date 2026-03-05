@@ -2,9 +2,10 @@ import React, { lazy,Suspense,useEffect,useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+
 import Loader from './components/Loader'
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 export default function App() {
   let [loading,setloading]=useState(true)
   let Home = lazy(() => import('./Pages/HomePages'))
