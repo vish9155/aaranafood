@@ -8,6 +8,7 @@ export default function About() {
                 <img
                     src="/images/about/about.jpeg"
 
+                    
                     className="absolute inset-0 w-full h-full object-cover"
                 />
                 {/* 
