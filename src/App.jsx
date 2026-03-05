@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Loader from './components/Loader'
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import Loader from './components/Loader';
 export default function App() {
   let [loading,setloading]=useState(true)
   let Home = lazy(() => import('./Pages/HomePages'))
