@@ -9,7 +9,7 @@ export default function Home() {
             <section className="relative w-full h-[99vh] md:h-[99vh] overflow-hidden " data-aos="zoom-in-down">
 
                 <img
-                    src="/images/banner1.jpeg"
+                    src="/images/ban1.jpeg"
 
                     className="absolute inset-0 w-full h-full object-cover"
                 />

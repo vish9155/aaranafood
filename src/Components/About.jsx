@@ -44,7 +44,7 @@ export default function About() {
 
 
                     <div className="order-1 md:order-2 relative group overflow-hidden rounded-2xl">
-                        <img src="/images/about/aboutintro.jpeg" alt="" className='h-full w-full object-cover group-hover:scale-110' />
+                        <img src="/images/about/aboutintro.jpeg" alt="" className='h-[420px] w-[640px] object-cover group-hover:scale-110' />
                     </div>
                 </div>
             </section>
