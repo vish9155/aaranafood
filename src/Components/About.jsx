@@ -6,7 +6,7 @@ export default function About() {
   <section className="relative w-full h-[99vh] md:h-[99vh] overflow-hidden " data-aos="zoom-in-down">
 
                 <img
-                    src="/images/about/about.jpeg"
+                    src="/images/about.jpeg"
 
                     
                     className="absolute inset-0 w-full h-full object-cover"
@@ -44,10 +44,11 @@ export default function About() {
 
 
                     <div className="order-1 md:order-2 relative group overflow-hidden rounded-2xl">
-                        <img src="/images/about/aboutintro.jpeg" alt="" className='h-[420px] w-[640px] object-cover group-hover:scale-110' />
+                        <img src="/images/aboutintro.jpeg" alt="" className='h-full w-full group-hover:scale-110' />
                     </div>
                 </div>
             </section>
   </>
   )
 }
+ 

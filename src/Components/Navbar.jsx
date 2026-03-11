@@ -35,8 +35,8 @@ export default function Navbar() {
         <>
             <nav className={`fixed top-0  w-full z-10000 transition-all duration-300 h-18 ease-in ${scroll ? ' text-xl bg-gradient-to-r from-black via-gray-900 to-slate-900 text-white shadow-lg' : 'bg-transparent text-blue-950'}`}>
                 <div className='max-7xl mx-auto px-3 flex justify-between items-center'>
-                    <NavLink to="/">
-                        <img src="/images/logo/logo.png" className='object-cover h-12 sm:h-15 md:h-18' alt="logo" />
+                    <NavLink to="/" className={'ms-3'}>
+                        <img src="/images/logo/logo.png" className='object-cover h-12 sm:h-14 md:h-16' alt="logo" />
                     </NavLink>
                     <div className='hidden md:flex space-x-4'>
                     {

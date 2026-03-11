@@ -92,7 +92,7 @@ Our <span className="text-blue-600">Products</span>
 
 {products.map((item) => (
 
-<div key={item.id} className="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden group">
+<div key={item.id} className="bg-white rounded-2xl border shadow-md hover:shadow-xl transition duration-300 overflow-hidden group">
 
 <div className="overflow-hidden">
 <img

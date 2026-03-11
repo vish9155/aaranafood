@@ -9,7 +9,7 @@ export default function Home() {
             <section className="relative w-full h-[99vh] md:h-[99vh] overflow-hidden " data-aos="zoom-in-down">
 
                 <img
-                    src="/images/ban1.jpeg"
+                    src="/images/bann1.jpeg"
 
                     className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -20,10 +20,21 @@ export default function Home() {
 
                 <div className="relative z-10 flex items-center justify-center h-full px-4 text-center">
                     <h1 className="text-white font-bold text-xl sm:text-2xl md:text-4xl lg:text-5xl max-w-4xl leading-snug">
-                       Welcome to AI Food – Where Technology Meets Flavor
+                      Premium Bakery Ingredients Supplier – Aaranafood
                     </h1>
                 </div>
 
+            </section>
+            <section data-aos='zoom-in-left'>
+                <div className='max-w-5xl px-3 mx-auto py-10 animated-bounce'>
+                     <p className='text-center text-sm sm:text-base text-gray-600 p-1 sm:p-2 md:p-3'>
+                      Aaranafood is a trusted supplier of premium bakery ingredients designed for professional bakeries, food manufacturers, restaurants, and dessert brands. We provide high-quality cocoa powder, fruit paste, fruit based toppings, pizza flour, sausage, and other essential bakery ingredients that help businesses maintain consistent taste, texture, and product quality.
+                    </p>
+                     <p className='text-center text-sm sm:text-base text-gray-600 p-1 sm:p-2 md:p-3'>
+                       With a strong focus on quality and reliability, Aaranafood ensures that every ingredient meets industry standards and supports commercial food production. Our products are widely used by bakeries, cafés, pizza outlets, and food processing businesses looking for dependable baking ingredients.
+                     </p>
+
+                 </div>                
             </section>
              <section data-aos="zoom-in-right">
                 <div className='max-w-7xl mx-auto px-3 py-10 grid grid-cols-1 md:grid-cols-2 gap-8'>
@@ -46,10 +57,49 @@ export default function Home() {
 
 
                     <div className="order-1 md:order-2 relative group overflow-hidden rounded-2xl">
-                        <img src="/images/about/aboutintro.jpeg" alt="" className='h-full w-full object-cover group-hover:scale-110' />
+                        <img src="/images/aboutintro.jpeg" alt="" className='h-full w-full group-hover:scale-110' />
                     </div>
                 </div>
             </section>
+<section>
+    <div className='max-w-6xl mx-auto my-10 px-3'>
+    <h2 className="text-center text-xl sm:text-2xl md:text-3xl py-3 ">Our Product Range</h2>
+    <div className="p-2 sm:p-3 md:p-4">
+       <p className='text-center text-sm sm:text-base text-gray-600  max-w-3xl mx-auto'>Aaranafood offers a carefully selected range of bakery ingredients that are widely used in baking, confectionery production, dessert preparation, and commercial food manufacturing.</p>
+    </div>
+    <div className="p-2 sm:p-3 md:p-4">
+        <div className='mx-auto grid grid-cols-1 md:grid-cols-3 gap-10'>
+           <div className='overflow-hidden relative group rounded-2xl'>
+            <img src="" className='h-[220px] w-[320px] group-hover:scale-110' alt="" />      
+             <h2 className="text-center text-lg sm:text-xl md:text-2xl py-3 ">Cocoa Powder (Natural & Alkalized)</h2>        
+           </div>
+           <div className='overflow-hidden relative group rounded-2xl'>
+            <img src="" className='h-[220px] w-[320px] group-hover:scale-110' alt="" />      
+             <h2 className="text-center text-lg sm:text-xl md:text-2xl py-3 ">Fruit Paste</h2>        
+           </div>
+            <div className='overflow-hidden relative group rounded-2xl'>
+            <img src="" className='h-[220px] w-[320px] group-hover:scale-110' alt="" />      
+             <h2 className="text-center text-lg sm:text-xl md:text-2xl py-3 ">Fruit Based Toppings</h2>        
+           </div>
+            <div className='overflow-hidden relative group rounded-2xl'>
+            <img src="" className='h-[220px] w-[320px] group-hover:scale-110' alt="" />      
+             <h2 className="text-center text-lg sm:text-xl md:text-2xl py-3 ">Dessert Toppings</h2>        
+           </div>
+            <div className='overflow-hidden relative group rounded-2xl'>
+            <img src="" className='h-[220px] w-[320px] group-hover:scale-110' alt="" />      
+             <h2 className="text-center text-lg sm:text-xl md:text-2xl py-3 ">Pizza Flour</h2>        
+           </div>
+            <div className='overflow-hidden relative group rounded-2xl'>
+            <img src="" className='h-[220px] w-[320px] group-hover:scale-110' alt="" />      
+             <h2 className="text-center text-lg sm:text-xl md:text-2xl py-3 ">Sausage</h2>        
+           </div>
+          
+        </div>
+         <p  className='text-center text-sm sm:text-base text-gray-600  max-w-xl mx-auto py-10'>Each product is designed to deliver excellent flavor, consistency, and performance in professional kitchens and bakeries.</p>
+    </div>
+    </div>
+</section>
+
              <section className='max-w-4xl py-12 mx-auto'>
                 <div data-aos="flip-up">
                     <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-15 p-5'>
