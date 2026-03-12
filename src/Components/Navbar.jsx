@@ -48,12 +48,12 @@ export default function Navbar() {
                     }
                     </div>
                 </div>
-                <button className='md:hidden right-0 absolute top-4' onClick={() => { setmobile(!mobile) }}>
+                <button className='md:hidden right-0 absolute top-4 text-white' onClick={() => { setmobile(!mobile) }}>
                     {mobile ? <X size={28} /> : <Menu size={28} />}
                 </button>
                 {
                     mobile && (
-                        <div className='md:hidden bg-black text-white p-5 space-y-4'>
+                        <div className='md:hidden bg-slate-950 text-white p-5 space-y-4'>
                             <div className='space-y-4'>
                                 {
                                     navitems.map((item, index) => (

@@ -90,17 +90,17 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <PhoneCall className="text-blue-500" size={20} />
                 <a
-                  href="tel:9155014125"
+                  href="tel:9990707280"
                   className="hover:text-blue-400 transition"
                 >
-                  +91 9155014125
+                  +91 9990707280
                 </a>
               </div>
 
               <div className="flex items-center gap-3">
                 <FaWhatsapp className="text-green-500 text-lg" />
                 <a
-                  href="https://wa.me/9155014125"
+                  href="https://wa.me/9990707280"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-green-400 transition"
@@ -128,7 +128,7 @@ export default function Footer() {
 
       {/* WHATSAPP FLOAT BUTTON */}
       <a
-        href="https://wa.me/9155014125"
+        href="https://wa.me/9990707280"
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-6 right-6 z-50"

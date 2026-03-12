@@ -31,9 +31,9 @@ export default function Contactus() {
             </section>
             <section >
                 <div className=" mx-auto py-12 px-4 bg-blue-100 ">
-                    <h2 className='text-center text-lg sm:text-xl md:text-2xl'>We’re Here for Your Premium Travel Needs</h2>
+                    <h2 className='text-center text-lg sm:text-xl md:text-2xl'>Your Trusted Source for Premium Bakery Ingredients</h2>
                     <p className='max-w-5xl mx-auto p-2 sm:p-3 md:p-4 text-gray-600 text-sm sm:text-base text-center'>
-                      We're here to help with any inquiries you have about booking your next first-class or business-class flight as well as answering any questions about quotes or providing help with existing reservations. With a first-class flight, you will experience exceptional customer service from initial contact until your flight is over with zero difficulties.
+                     At Aaranafood, we are committed to supporting bakeries, restaurants, and food manufacturers with high-quality bakery ingredients. If you have questions about our products, bulk ingredient supply, or business partnerships, our team is always ready to assist. We focus on providing dependable ingredients that help food businesses maintain consistent taste, quality, and production efficiency.
                     </p>
                 </div>
                 <div className="p-3 sm:p-4 md:p-5 grid grid-cols-1 md:grid-cols-2 gap-7">
@@ -64,7 +64,7 @@ export default function Contactus() {
                                     <h2 className="text-lg sm:text-xl md:text-2xl">Email:-</h2>
                                     <p className="text-sm sm:text-base">
                                         <NavLink
-                                            to="mailto:support@gmail.com"
+                                            to="mailto:aifoods08@gmail.com"
                                             className="text-blue-600 hover:text-red-600  hover:underline transform hover:-translate-x-2 hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in"
                                         >
                                            info@firstclassflight.com
