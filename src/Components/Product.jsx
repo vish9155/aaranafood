@@ -24,7 +24,7 @@ Our <span className="text-slate-600">Products</span>
 <img
 src={item.image}
 alt={''}
-className="w-[606px] h-[340px]  object-cover group-hover:scale-110 transition duration-300"
+className="h-full w-full group-hover:scale-110 transition duration-300"
 />
 </div>
 

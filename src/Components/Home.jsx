@@ -346,7 +346,7 @@ export default function Home() {
                                        </div>
                                    </div>
            
-                                   <div className="p-3 sm:p-4 md:p-5 mt-5 z-40 shadow-lg rounded-2xl mt-5 shadow-blue-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
+                                   <div className="p-3 sm:p-4 md:p-5 mt-5 z-40 shadow-lg rounded-2xl shadow-blue-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
                                        <div className="flex gap-4">
                                            <div className="h-14 w-14 rounded-full bg-gray-600 flex items-center justify-center">
                                                <FaWhatsapp className="text-2xl text-white" />

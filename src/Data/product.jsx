@@ -1,6 +1,6 @@
 let products = [
     {
-        image: "",
+        image: "/images/products/coca.jpeg",
         id: 1,
         content: (
 
@@ -23,7 +23,7 @@ let products = [
         )
     },
      {
-        image: "",
+        image: "/images/products/fruit.jpeg",
         id: 2,
         content: (
 
@@ -47,7 +47,7 @@ let products = [
     }
     ,
      {
-        image: "",
+        image: "/images/products/toppings.jpeg",
         id: 3,
         content: (
 
@@ -70,7 +70,7 @@ let products = [
         )
     },
      {
-        image: "",
+        image: "/images/products/desert.jpeg",
         id: 4,
         content: (
 
@@ -93,7 +93,7 @@ let products = [
         )
     },
      {
-        image: "",
+        image: "/images/products/pizza.jpeg",
         id: 5,
         content: (
 
@@ -117,7 +117,7 @@ let products = [
     }
     ,
      {
-        image: "",
+        image: "/images/products/sausage.jpeg",
         id: 6,
         content: (
 
