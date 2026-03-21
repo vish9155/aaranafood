@@ -18,7 +18,7 @@ Our <span className="text-slate-600">Products</span>
 
 {products.map((item) => (
 
-<div key={item.id} className="bg-white rounded-2xl border shadow  shadow-sky-100 z-40 transition-all  hover:translate-x-2.5 cursor-pointer border-white  hover:shadow-xl transition duration-300 overflow-hidden group">
+<div key={item.id} className="bg-white rounded-2xl border shadow  shadow-blue-200 z-40 transition-all  hover:translate-x-2.5 cursor-pointer border-white  hover:shadow-xl transition duration-300 overflow-hidden group">
 
 <div className="overflow-hidden">
 <img
@@ -34,7 +34,7 @@ className="h-full w-full group-hover:scale-110 transition duration-300"
   item.content
 }
 
-{/* <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+{/* <button className="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition">
 View Product
 </button> */}
 

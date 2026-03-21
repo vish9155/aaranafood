@@ -13,7 +13,7 @@ export default function Contactus() {
 
                     className="absolute inset-0 w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-black/40"></div>
+                {/* <div className="absolute inset-0 bg-black/40"></div> */}
                 <div className="relative z-10  h-full px-4 text-center">
                     <div className='flex items-center justify-center h-80 '>
                         <h1 className="text-white font-bold text-xl sm:text-2xl md:text-4xl lg:text-5xl max-w-4xl leading-snug">
@@ -23,17 +23,17 @@ export default function Contactus() {
 
 
                     <div>
-                        <NavLink to={'tel:8663075957'} className={`p-4 mx-auto bg-blue-900 hover:bg-blue-600 rounded-xl text-white`}>Call Us Now</NavLink>
+                        <NavLink to={'tel:9990707280'} className={`p-4 mx-auto bg-purple-900 hover:bg-purple-600 rounded-xl text-white`}>Call Us Now</NavLink>
                     </div>
 
                 </div>
 
             </section>
             <section >
-                <div className=" mx-auto py-12 px-4 bg-blue-100 ">
-                    <h2 className='text-center text-lg sm:text-xl md:text-2xl'>Your Trusted Source for Premium Bakery Ingredients</h2>
+                <div className=" mx-auto py-12 px-4 bg-purple-200 ">
+                    <h2 className='text-center text-lg sm:text-xl md:text-2xl text-purple-600'>Your Trusted Source for Premium Bakery Ingredients</h2>
                     <p className='max-w-5xl mx-auto p-2 sm:p-3 md:p-4 text-gray-600 text-sm sm:text-base text-center'>
-                     At Aaranafood, we are committed to supporting bakeries, restaurants, and food manufacturers with high-quality bakery ingredients. If you have questions about our products, bulk ingredient supply, or business partnerships, our team is always ready to assist. We focus on providing dependable ingredients that help food businesses maintain consistent taste, quality, and production efficiency.
+                     At Aarana International, we are committed to supporting bakeries, restaurants, and food manufacturers with high-quality bakery ingredients. If you have questions about our products, bulk ingredient supply, or business partnerships, our team is always ready to assist. We focus on providing dependable ingredients that help food businesses maintain consistent taste, quality, and production efficiency.
                     </p>
                 </div>
                 <div className="p-3 sm:p-4 md:p-5 grid grid-cols-1 md:grid-cols-2 gap-7">
@@ -41,69 +41,72 @@ export default function Contactus() {
 
                     <div className="order-2 md:order-1 space-y-4">
 
-                        <div className="p-3 sm:p-4 md:p-5 z-40 shadow-lg rounded-2xl mt-5 shadow-blue-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
+                        <div className="p-3 sm:p-4 md:p-5 z-40 shadow-lg rounded-2xl mt-5 shadow-purple-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
                             <div className="flex gap-4">
-                                <div className="h-14 w-14 rounded-full bg-gray-600 flex items-center justify-center">
+                                <div className="h-14 w-14 rounded-full bg-purple-900 flex items-center justify-center">
                                     <MapPin size={28} className="text-white" />
                                 </div>
                                 <div>
                                     <h2 className="text-lg sm:text-xl md:text-2xl">Address:-</h2>
                                     <p className="text-sm sm:text-base">
-                                        A-16 17662 Irvine Blvd, Suite 9, Tustin, CA 92780
+                                        3B Level-3 ,Krishna Plaza,
+kh. No.414 Block-A
+Road No.4 Mahipalpur
+New delhi -110037, India
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="p-3 sm:p-4 md:p-5 z-40 shadow-lg rounded-2xl mt-5 shadow-blue-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
+                        <div className="p-3 sm:p-4 md:p-5 z-40 shadow-lg rounded-2xl mt-5 shadow-purple-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
                             <div className="flex gap-4">
-                                <div className="h-14 w-14 rounded-full bg-gray-600 flex items-center justify-center">
+                                <div className="h-14 w-14 rounded-full bg-purple-900 flex items-center justify-center">
                                     <Mail size={28} className="text-white" />
                                 </div>
                                 <div>
                                     <h2 className="text-lg sm:text-xl md:text-2xl">Email:-</h2>
                                     <p className="text-sm sm:text-base">
                                         <NavLink
-                                            to="mailto:aifoods08@gmail.com"
-                                            className="text-blue-600 hover:text-red-600  hover:underline transform hover:-translate-x-2 hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in"
+                                            to="mailto:Impex@aifood.in "
+                                            className="text-purple-600 hover:text-purple-900  hover:underline transform hover:-translate-x-2 hover:decoration-2 hover:decoration-purple-800 transition-all duration-300 ease-in"
                                         >
-                                           info@firstclassflight.com
+                                          Impex@aifood.in 
                                         </NavLink>
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="p-3 sm:p-4 md:p-5 z-40 shadow-lg rounded-2xl mt-5 shadow-blue-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
+                        <div className="p-3 sm:p-4 md:p-5 z-40 shadow-lg rounded-2xl mt-5 shadow-purple-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
                             <div className="flex gap-4">
-                                <div className="h-14 w-14 rounded-full bg-gray-600 flex items-center justify-center">
+                                <div className="h-14 w-14 rounded-full bg-purple-900 flex items-center justify-center">
                                     <PhoneCall size={28} className="text-white" />
                                 </div>
                                 <div>
                                     <h2 className="text-lg sm:text-xl md:text-2xl">Phone:-</h2>
                                     <p className="text-sm sm:text-base">
                                         <NavLink
-                                            to="tel:8663075957"
-                                            className="text-blue-600 hover:text-red-600  hover:underline transform hover:-translate-x-2 hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in"
+                                            to="tel:9990707280"
+                                            className="text-purple-600 hover:text-purple-900  hover:underline transform hover:-translate-x-2 hover:decoration-2 hover:decoration-purple-800 transition-all duration-300 ease-in"
                                         >
-                                            8663075957
+                                            9990707280
                                         </NavLink>
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="p-3 sm:p-4 md:p-5 mt-5 z-40 shadow-lg rounded-2xl shadow-blue-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
+                        <div className="p-3 sm:p-4 md:p-5 mt-5 z-40 shadow-lg rounded-2xl shadow-purple-600 transform translate-x-0 hover:-translate-x-4 transition-transform duration-300 ease-in">
                             <div className="flex gap-4">
-                                <div className="h-14 w-14 rounded-full bg-gray-600 flex items-center justify-center">
+                                <div className="h-14 w-14 rounded-full bg-purple-900 flex items-center justify-center">
                                     <FaWhatsapp className="text-2xl text-white" />
                                 </div>
                                 <div>
                                     <h2 className="text-lg sm:text-xl md:text-2xl">Whatsapp:-</h2>
                                     <p className="text-sm sm:text-base">
                                         <NavLink
-                                            to="https://wa.me/8663075957"
-                                            className="text-blue-600 hover:text-red-600  hover:underline transform hover:-translate-x-2 hover:decoration-2 hover:decoration-blue-800 transition-all duration-300 ease-in"
+                                            to="https://wa.me/9990707280"
+                                            className="text-purple-600 hover:text-purple-900  hover:underline transform hover:-translate-x-2 hover:decoration-2 hover:decoration-purple-800 transition-all duration-300 ease-in"
                                         >
                                             Chat With Us
                                         </NavLink>
@@ -122,27 +125,27 @@ export default function Contactus() {
                                 type="text"
                                 name="name"
                                 placeholder="Enter Name"
-                                className="w-full border border-blue-600 outline-blue-900  p-2 rounded"
+                                className="w-full border border-purple-600 outline-purple-900  p-2 rounded"
                             />
                             <input
                                 type="text"
                                 name="phone"
                                 placeholder="Enter Phone..."
-                                className="w-full border border-blue-600 outline-blue-900 p-2 rounded"
+                                className="w-full border border-purple-600 outline-purple-900 p-2 rounded"
                             />
                             <input
                                 type="email"
                                 name="email"
                                 placeholder="Enter Email..."
-                                className="w-full border border-blue-600 outline-blue-900 p-2 rounded"
+                                className="w-full border border-purple-600 outline-purple-900 p-2 rounded"
                             />
                             <textarea
                                 name="message"
                                 rows={5}
                                 placeholder="Enter Your Query..."
-                                className="w-full border border-blue-600 outline-blue-900 p-2 rounded"
+                                className="w-full border border-purple-600 outline-purple-900 p-2 rounded"
                             />
-                            <button type='submit' className='mx-auto py-3 rounded-xl cursor-pointer bg-blue-700 w-40 text-white hover:bg-blue-900'>
+                            <button type='submit' className='mx-auto py-3 rounded-xl cursor-pointer bg-purple-700 w-40 text-white hover:bg-purple-900'>
                                 Submit
                             </button>
                         </form>
@@ -153,31 +156,31 @@ export default function Contactus() {
 
             {/* <section>
                 <div className='max-w-7xl mx-auto py-14 px-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 '>
-                    <div className='z-40 shadow-xl rounded-2xl shadow-blue-600 translate hover:translate-x-3 cursor-pointer '>
+                    <div className='z-40 shadow-xl rounded-2xl shadow-purple-600 translate hover:translate-x-3 cursor-pointer '>
                         <Headphones size={28} className='text-center mx-auto' />
                         <div className='p-2 sm:p-3 md:p-4'>
-                            <h2 className='text-center text-lg sm:text-xl md:text-2xl'>24/7 Customer Support</h2>
+                            <h2 className='text-center text-lg sm:text-xl md:text-2xl text-purple-600'>24/7 Customer Support</h2>
                             <p className='p-1 sm:p-2 md:p-3 text-center text-sm sm:text-base text-gray-600'>Our support team is available around the clock to assist with bookings, schedule changes, cancellations, and urgent travel needs. Whether you’re preparing for departure or already at the airport, we respond quickly and professionally. Premium travel should never come with stress — and we make sure it doesn’t.</p>
                         </div>
                     </div>
-                    <div className='z-40 shadow-xl rounded-2xl shadow-blue-600 translate hover:translate-x-3 cursor-pointer '>
+                    <div className='z-40 shadow-xl rounded-2xl shadow-purple-600 translate hover:translate-x-3 cursor-pointer '>
                         <UserCheck size={28} className='text-center mx-auto' />
                         <div className='p-2 sm:p-3 md:p-4'>
-                            <h2 className='text-center text-lg sm:text-xl md:text-2xl'>Dedicated Travel Manager</h2>
+                            <h2 className='text-center text-lg sm:text-xl md:text-2xl text-purple-600'>Dedicated Travel Manager</h2>
                             <p className='p-1 sm:p-2 md:p-3 text-center text-sm sm:text-base text-gray-600'>Work with a personal travel expert who understands your preferences, priorities, and schedule. From finding competitive premium fares to coordinating upgrades and special requests, your dedicated manager handles every detail with precision so your journey feels effortless from start to finish.</p>
                         </div>
                     </div>
-                    <div className='z-40 shadow-xl rounded-2xl shadow-blue-600 translate hover:translate-x-3 cursor-pointer '>
+                    <div className='z-40 shadow-xl rounded-2xl shadow-purple-600 translate hover:translate-x-3 cursor-pointer '>
                         <ShieldCheck size={28} className='text-center mx-auto' />
                         <div className='p-2 sm:p-3 md:p-4'>
-                            <h2 className='text-center text-lg sm:text-xl md:text-2xl'>Secure & Transparent Booking</h2>
+                            <h2 className='text-center text-lg sm:text-xl md:text-2xl text-purple-600'>Secure & Transparent Booking</h2>
                             <p className='p-1 sm:p-2 md:p-3 text-center text-sm sm:text-base text-gray-600'>Book with confidence through our secure payment system and clearly explained fare details. We believe in full transparency — no hidden fees, no unexpected charges. Just straightforward pricing, clear communication, and professional guidance every step of the way.</p>
                         </div>
                     </div>
-                    <div className='z-40 shadow-xl rounded-2xl shadow-blue-600 translate hover:translate-x-3 cursor-pointer '>
+                    <div className='z-40 shadow-xl rounded-2xl shadow-purple-600 translate hover:translate-x-3 cursor-pointer '>
                         <RefreshCcw size={28} className='text-center mx-auto' />
                         <div className='p-2 sm:p-3 md:p-4'>
-                            <h2 className='text-center text-lg sm:text-xl md:text-2xl'>Flexible Changes & Assistance</h2>
+                            <h2 className='text-center text-lg sm:text-xl md:text-2xl text-purple-600'>Flexible Changes & Assistance</h2>
                             <p className='p-1 sm:p-2 md:p-3 text-center text-sm sm:text-base text-gray-600'>Travel plans can shift, and when they do, we’re here to help. Our team assists with date changes, cabin upgrades, rebooking options, and passenger detail updates — always aligned with airline policies and handled as smoothly as possible.</p>
                         </div>
                     </div>

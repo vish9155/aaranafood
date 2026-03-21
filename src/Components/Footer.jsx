@@ -5,7 +5,9 @@ import { NavLink } from "react-router-dom";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-slate-950 text-gray-300 pt-16 pb-10">
+      <footer className="bg-gradient-to-r from-purple-950/95 via-purple-900/90 to-purple-800 
+text-purple-300 mt-20 border-t border-purple-500/20 
+text-white px-4 py-2 hover:shadow-lg transition pt-16 pb-10">
         <div className="max-w-7xl mx-auto px-4 grid gap-10 md:grid-cols-3">
 
           {/* LOGO + ABOUT */}
@@ -18,10 +20,8 @@ export default function Footer() {
               />
             </NavLink>
 
-            <p className="text-sm leading-relaxed text-gray-400">
-              TrainTickets USA is a simple and secure platform that helps
-              travelers search train routes, compare schedules, and book train
-              tickets online across the United States quickly and easily.
+            <p className="text-sm leading-relaxed text-white">
+              Aarana International focuses on providing dependable ingredients that help bakeries and food manufacturers maintain consistent product quality.
             </p>
           </div>
 
@@ -33,28 +33,28 @@ export default function Footer() {
 
             <div className="flex flex-col space-y-3 text-sm">
               <NavLink
-                className="hover:text-blue-400 transition"
+                className="hover:text-purple-400 transition"
                 to="/"
               >
                 Home
               </NavLink>
 
               <NavLink
-                className="hover:text-blue-400 transition"
+                className="hover:text-purple-400 transition"
                 to="/about-us"
               >
                 About Us
               </NavLink>
 
               <NavLink
-                className="hover:text-blue-400 transition"
+                className="hover:text-purple-400 transition"
                 to="/products"
               >
                 Products
               </NavLink>
 
               <NavLink
-                className="hover:text-blue-400 transition"
+                className="hover:text-purple-400 transition"
                 to="/contact-us"
               >
                 Contact Us
@@ -71,27 +71,30 @@ export default function Footer() {
             <div className="space-y-4 text-sm">
 
               <div className="flex items-start gap-3">
-                <MapPin className="text-blue-500 mt-1" size={20} />
-                <p className="text-gray-400">
-                  3B Level - 3 Krishna Plaza
+                <MapPin className="text-purple-500 mt-1" size={32} />
+                <p className="text-white">
+                  3B Level-3 ,Krishna Plaza,
+                  kh. No.414 Block-A
+                  Road No.4 Mahipalpur
+                  New delhi -110037, India
                 </p>
               </div>
 
               <div className="flex items-center gap-3">
-                <FaEnvelope className="text-blue-500" />
+                <FaEnvelope className="text-purple-500" />
                 <a
-                  href="mailto:vishaljpkumar4970@gmail.com"
-                  className="hover:text-blue-400 transition"
+                  href="mailto:Impex@aifood.in "
+                  className="hover:text-purple-400 transition"
                 >
-                  vishaljpkumar4970@gmail.com
+                  Impex@aifood.in 
                 </a>
               </div>
 
               <div className="flex items-center gap-3">
-                <PhoneCall className="text-blue-500" size={20} />
+                <PhoneCall className="text-purple-500" size={20} />
                 <a
                   href="tel:9990707280"
-                  className="hover:text-blue-400 transition"
+                  className="hover:text-purple-400 transition"
                 >
                   +91 9990707280
                 </a>
@@ -115,13 +118,13 @@ export default function Footer() {
         {/* BOTTOM COPYRIGHT */}
         <div className="border-t border-slate-800 mt-12 pt-6 text-center text-sm text-gray-500">
           <div className="flex items-center justify-center gap-2">
-            <Copyright size={16} />
-            <span>2026 TrainTicketsUSA. All rights reserved.</span>
+            <Copyright size={16} className="text-white"/>
+            <span className="text-white">2026 AARNA International. All rights reserved.</span>
           </div>
 
-          <p className="mt-2">
+          <p className="mt-2 text-white">
             Developed & Designed by{" "}
-            <span className="text-blue-400 font-medium">Risezonic</span>
+            <span className="text-purple-400 font-medium">Risezonic</span>
           </p>
         </div>
       </footer>
